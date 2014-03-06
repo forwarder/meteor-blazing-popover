@@ -1,0 +1,9 @@
+{
+  "name": "Blazing Popover",
+  "description": "Bootstrap Popovers for Meteor UI.",
+  "homepage": "http://www.github.com/forwarder/meteor-blazing-popover",
+  "author": "Eelco Wiersma <eelco@forwarder.nl> (http://forwarder.nl)",
+  "version": "0.1",
+  "packages": {
+  }
+}
