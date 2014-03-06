@@ -3,8 +3,11 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.add_files('blazing-popover.js', 'client');
-  api.add_files('blazing-popover.js', 'client');
+  api.use('jquery', 'client');
+  api.add_files([
+    'blazing-popover.js',
+    'blazing-popover.js'
+  ], 'client');
 
   if(api.export) {
     api.export('BlazingPopover');
